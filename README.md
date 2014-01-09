@@ -2,11 +2,9 @@
 C'est chiant de chercher une machine à café ou une machine à canette qui fonctionne et qui a du stock.
 
 # Solution
-Application communautaire qui permet de dire si telle ou telle
-machine à café/canette fonctionne ou a tellle ou telle boisson.
+Application communautaire qui permet de dire si telle ou telle machine à café/canette fonctionne ou a tellle ou telle boisson.
 
-Chaque utilisateur peut changer le statut d'une machine à l'aide d'une appli
-pour dire si elle a encore du café/du coca/est éteinte, etc...
+Chaque utilisateur peut changer le statut d'une machine à l'aide d'une appli pour dire si elle a encore du café/du coca/est éteinte, etc...
 
 # Idées
 - l'utilisateur voit la liste des machines :
@@ -63,7 +61,7 @@ On doit pouvoir savoir si la machine marche ou non
 - Boissons(#idBoisson, nom)
 - MachinesBoissons(#machine#Machines(idMachine), #boisson#Boissons(idBoisson), reste)
 
-qrcode: valeur que renvois le qrcode quand on le scan (token unique pour chaque machine)
-type: chaud, froid
-status: on, off
-reste: oui, non
+- qrcode: valeur que renvois le qrcode quand on le scan (token unique pour chaque machine)
+- type: chaud, froid
+- status: on, off
+- reste: oui, non
