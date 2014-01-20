@@ -57,7 +57,7 @@ On doit pouvoir savoir si la machine marche ou non
 ## Proposition
 
 - Batiments(#idBatiment, nom)
-- Machines(#idMachine, batiment#Batiments(idBatiment), qrcode, type, status)
+- Machines(#idMachine, batiment#Batiments(idBatiment), qrcode, coords,type, status)
 - Boissons(#idBoisson, nom)
 - MachinesBoissons(#machine#Machines(idMachine), #boisson#Boissons(idBoisson), reste)
 
